@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+/* 全体の共通ルールとして指定→body */
+body {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #424242;
+  font-family: "Roboto", "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro",
+    "游ゴシック", YuGothic, "Meiryo UI", Meiryo, "ＭＳ ゴシック", Arial,
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.name {
+  font-size: 40px;
+  color: red;
+}
+
+.tutors {
+  background-color: #dddddd;
+}
+
+.tutors-title {
+  padding-left: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 40px;
+  font-size: 27px;
+  font-weight: bold;
+  background-color: #ff0000;
+  text-align: center;
+}
+
+.photo{
+  width: 80px;
+  height: 80px;
+}
+
+.outer {
+  width: 800px;
+  margin: auto;
+}
+
+.tutor-list {
+  display: flex;
+}
